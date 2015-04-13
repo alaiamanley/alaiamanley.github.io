@@ -1,0 +1,90 @@
+body {
+	font-family: 'Helvetica', sans-serif;
+	color: rgb(255,255,255);
+	margin: 0;
+	background: url("../images/stonesthrow.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: rgb(30,30,30);
+}
+
+h1, p, ul {
+	    text-align: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 7px;
+	margin: 0px
+}
+
+img {
+	display: block;
+	margin: 40px auto 20px;
+}
+
+p {
+	font-size: 13px;
+	line-height: 18px;
+	width: 750px;
+	margin: 50px auto 50px;
+	text-align: justify;
+/*	background: rgba(30,30,30,0.5);
+*/
+}
+
+ul {
+    list-style-type: none;
+    padding: /*10px*/ auto/* 10px*/;
+    margin: 10px 5px 5px 5px;
+}
+
+li {
+	display: inline;
+	padding: 0px 15px 0px;
+}
+
+a {
+	text-transform: lowercase;
+	font-size: 12px;
+	color: rgb(227,237,240);
+	text-decoration: none;
+}
+
+div {
+	text-align: center;
+	padding: 10px;
+	background: rgba(30,30,30,0.5);
+}
+
+#header {
+	margin: 0 auto;
+}
+
+#title {
+	background: none;
+	margin: 10px 10px 5px 10px;	
+}
+
+#slogan {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 200px;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	text-align: center;
+	margin: 10px auto 10px;
+}
+
+#content {
+	margin: 0 auto;
+	width: 750px;
+}
+
+#footer {
+	font-style: italic;
+}
+
