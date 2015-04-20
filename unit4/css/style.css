@@ -43,13 +43,13 @@ p {
 ul {
     list-style-type: none;
     padding: /*10px*/ auto/* 10px*/;
-    margin: 10px 5px 5px 5px;
+    margin: 10px 5px 5px;
 }
 
 li {
 	display: inline-block;
 /*	display: inline;
-*/	padding: 0px 15px 0px;
+*/	padding: 0px 15px;
 }
 
 li a, a {
