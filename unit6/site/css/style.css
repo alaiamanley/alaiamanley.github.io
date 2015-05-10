@@ -102,14 +102,16 @@ footer
 	padding: 20px;
 }
 
-.section
-{	margin: 1em;
+.contactsection
+{	padding: 1em;
+	margin: 1em auto;
+	width: 80%;
 
 }
 
 .box
-{	width: 200px;
-	height: 200px;
+{	width: 20vw;
+	height: 20vh;
 	border: solid 2px #1E1E1E;
 	margin: 10px;
 	padding: 20px;
@@ -127,7 +129,7 @@ footer
 .contacticon
 {	text-align: center;
 	width: 80px;
-	display: block;
+	display: inline-block;
 	padding: 20px;
 }
 
