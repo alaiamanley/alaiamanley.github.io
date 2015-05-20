@@ -1,0 +1,258 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,900);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin: .4em 0;
+
+}
+
+p {
+	font-size: .8em;
+
+}
+
+li {
+	display: block;
+
+}
+
+a {
+	text-decoration: none;
+	color: #1e1e1e;
+	font-size: .8em;	
+}
+
+aside {
+	background-color: #fcfdd5;
+	display: block;
+	float: left;
+	height: 100%;
+	width: 20%;
+	padding: 2%;
+	position: fixed;
+	max-width: 200px;
+}
+
+section {
+	display: block;
+	float: right;
+	padding: 2%;
+	width: 72%;
+/*	position: relative;
+*/}
+
+hr {
+/*	width: 100%;
+*/	
+}
+
+footer {
+	position: fixed;
+	bottom: 30px;
+	width: 20%;
+
+}
+
+.homenav {
+	margin-top: .5em;
+}
+
+.homenav li a {
+	font-size: 4em;
+	line-height: .9em;
+	font-weight: 900;
+
+}
+
+.wrapper {
+	position: relative;
+	height: 100%;
+}
+
+.description {
+	font-size: .75em;
+	margin-top: 1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contact li a {
+	font-size: .7em;
+}
+
+#logo {
+	margin: 0 1% 0 1%;
+	width: 94%;
+}
+
+#self {
+	margin-top: 1em;
+	width: 96%;
+	max-width: 720px;	
+}
+
+.titlecontact{
+	font-size: .8em;
+/*	margin-bottom: 1em;
+*/	
+}
+
+.contact {
+	margin-top: .8em;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+a:hover {
+	color: #FC986A;
+}
+
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+/*      FOR MOBILE    */
+
+
+@media only screen and (max-width:550px) {
+	
+	body {
+	font-size: 12px;
+	}
+
+	h1 {
+		font-size: 1.3em;
+		margin: .8em 0;
+		text-align: center;
+	}
+
+	p {
+		font-size: 1em;
+
+	}
+
+	ul {
+		width: 100%;
+		margin-top: .5em;
+	}
+
+	li {
+		display: block;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	aside {
+		background-color: #fcfdd5;
+		display: none;
+		float: none;
+		width: 100%;
+	}
+
+	section {
+		display: block;
+		float: none;
+		padding: 0;
+		width: 100%;
+	/*	position: relative;
+	*/}
+
+	hr {
+		display: none;
+	}
+
+	header {
+		width: 100%;
+	}
+
+	main {
+		width: 100%;
+	}
+
+	footer {
+		position: fixed;
+		bottom: 30px;
+		width: 100%;
+
+	}
+
+	.homenav {
+		margin-top: .5em;
+	}
+
+	.homenav li a {
+		font-size: 5em;
+		line-height: .9em;
+		font-weight: 900;
+
+	}
+
+	.description {
+		font-size: .75em;
+		margin-top: 1em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.contact li a {
+		font-size: .7em;
+	}
+
+	#logo {
+		display: none;
+	}
+
+	#self {
+		margin: 1.3em 4% 0;
+		width: 92%;
+	}
+
+	.titlecontact{
+		font-size: .8em;
+	/*	margin-bottom: 1em;
+	*/	
+	}
+
+	.contact {
+		margin-top: .8em;
+	}
+
+	a:hover {
+		color: #1e1e1e;
+	}
+
+		
+}
