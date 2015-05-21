@@ -49,11 +49,12 @@ aside {
 
 section {
 	display: block;
-	float: right;
+	float: left;
+	left: 20%;
 	padding: 2%;
 	width: 72%;
-/*	position: relative;
-*/}
+	position: absolute;
+}
 
 hr {
 /*	width: 100%;
@@ -147,15 +148,16 @@ a:hover {
 
 
 @media only screen and (max-width:550px) {
-	
+
 	body {
-	font-size: 12px;
+		font-size: 12px;
 	}
 
 	h1 {
 		font-size: 1.3em;
 		margin: .8em 0;
 		text-align: center;
+
 	}
 
 	p {
@@ -166,6 +168,7 @@ a:hover {
 	ul {
 		width: 100%;
 		margin-top: .5em;
+		display: block;
 	}
 
 	li {
@@ -175,11 +178,22 @@ a:hover {
 
 	}
 
+	a {
+		text-decoration: none;
+		color: #1e1e1e;
+		font-size: .8em;	
+	}
+
+	/* check here */
+
 	aside {
-		background-color: #fcfdd5;
-		display: none;
+		display: block;
 		float: none;
+		height: 100%;
 		width: 100%;
+		padding: 0;
+		position: relative;
+		max-width: none;
 	}
 
 	section {
@@ -187,11 +201,11 @@ a:hover {
 		float: none;
 		padding: 0;
 		width: 100%;
-	/*	position: relative;
-	*/}
+		position: static;
+	}
 
 	hr {
-		display: none;
+		display: none;	
 	}
 
 	header {
@@ -203,14 +217,22 @@ a:hover {
 	}
 
 	footer {
-		position: fixed;
-		bottom: 30px;
+		background-color: #fcfdd5;
 		width: 100%;
-
+		display: block;
+		padding: 1em;
+		position: fixed;
+		bottom: 0;		
 	}
 
 	.homenav {
 		margin-top: .5em;
+	}
+
+	.homenav li {
+		background-color: #fff;
+		width: 100%;
+		display: block;		
 	}
 
 	.homenav li a {
@@ -220,15 +242,23 @@ a:hover {
 
 	}
 
+	.wrapper {
+		position: static;
+		height: 100%;
+	}
+
 	.description {
 		font-size: .75em;
 		margin-top: 1em;
 		text-align: center;
 		text-transform: uppercase;
+		display: none;
 	}
 
 	.contact li a {
-		font-size: .7em;
+		font-size: 1em;
+		width: 100%;
+		line-height: 1.5em;
 	}
 
 	#logo {
@@ -241,7 +271,8 @@ a:hover {
 	}
 
 	.titlecontact{
-		font-size: .8em;
+		font-size: 1.1em;
+		text-align: center;
 	/*	margin-bottom: 1em;
 	*/	
 	}
@@ -250,9 +281,20 @@ a:hover {
 		margin-top: .8em;
 	}
 
-	a:hover {
-		color: #1e1e1e;
+	.clearfix:after {
+	  visibility: hidden;
+	  display: block;
+	  font-size: 0;
+	  content: " ";
+	  clear: both;
+	  height: 0;
 	}
 
-		
+	li a:hover {
+		color: #fff;
+		background-color: #1E1E1E;
+
+	}
+
+	
 }
