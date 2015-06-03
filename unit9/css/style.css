@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body
+{	background-color: #fff;
+	font-size: 16px;
+	color: #1E1E1E;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-align: left;
+	width: 600px;
+/*	width: 65%;
+*/	margin: 0 auto;
+/*	max-width: 600px;
+*/}
+
+h1
+{	font-size: 4.4em;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	margin-top: .4em;
+}
+
+h2
+{ 	font-size: 3.4em;
+	text-transform: none;
+	letter-spacing: .03em;
+	margin-top: .2em;
+}
+
+h3
+{	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 1.1em;
+	margin: .7em 0 .5em 0;
+}
+
+p
+{ 	font-size: .9em;
+	letter-spacing: 0.04em;
+	line-height: 1.3em;
+	margin-bottom: 1em;
+}
+
+h1, h2
+{	font-family: 'Rokkitt', serif;
+}
+
+a {	
+	font-style: italic;
+	font-weight: 900;
+	text-decoration: none;
+	color: #1E1E1E;
+	line-height: 0;
+}
+
+h1, li a, .city
+{	color: #D92D37;
+}
+
+main
+{ 	width: 68%;
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 7.8em;
+}
+
+hr
+{	margin: 0 auto;
+	width: 75%;
+}
+
+footer
+{	max-width: 750px;
+	margin: 0 auto;
+	padding: 7.8em;
+}
+
+.headline
+{	padding: 15em;
+	background-image: url("../images/cityscape.jpg");
+	background-size: cover;
+	background-position: fixed;
+}
+
+.icon
+{	width: 70px;
+	padding: 20px;
+}
+
+.contactsection
+{	padding: 1em;
+	margin: 1em auto;
+	width: 80%;
+
+}
+
+.box
+{	width: 20vw;
+	height: 20vh;
+	border: solid 2px #1E1E1E;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	float: left;
+	display: block;
+}
+
+.buttonlink
+{	margin-top: 10px;
+	text-align: center;
+
+}
+
+.contacticon
+{	text-align: center;
+	width: 80px;
+	display: inline-block;
+	padding: 20px;
+}
+
+.copyright
+{	color: #707070;
+	font-size: .85em;
+	text-align: center;
+	clear: both;
+}
+
+#social
+{	margin: 15px auto;
+	text-align: center;
+}
+
+.contact
+{	text-align: left;
+	margin: 1em;
+
+}
+
+/*img #arrow
+{
+
+}*/
+
+.clearfix:after 
+{ 	visibility: hidden; 
+		display: block; 
+		font-size: 0; 
+		content: " "; 
+		clear: both; 
+		height: 0; 
+}
+
+a:hover
+{	color: #ff0000;
+}
+
